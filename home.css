@@ -1,0 +1,321 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container1{
+    width: 100%;
+    height: 600px;
+    /* margin-top: 30px; */
+    position: relative;
+    background-image: url('../LOVE & NATURE/L&N Images/image4.jpg');
+    background-position: center;
+    background-size: cover;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    /*text-align: center;*/
+    background-repeat: no-repeat;
+    
+}
+
+.container1 .header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 30px;
+    padding-right: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.navbar{
+    display: flex;
+    
+}
+
+.navbar ul{
+    display: flex;
+    padding-right: 40px;
+}
+
+.navbar ul li{
+    margin-left: 20px;
+    list-style: none;
+}
+
+.navbar a{
+    text-decoration: none;
+    color: white;
+}
+
+.navbar button{
+    width: 170px;
+    height: 50px;
+    font-size:large;
+    border-width: 1px;
+    border-radius: 5px;
+    border-color: white;
+    background-color: transparent;
+    color:white;
+    }
+
+.love{
+    text-align: center;
+    color: white;
+    line-height: 1.2;
+}
+
+.love h3{
+    font-size: 3rem;
+    font-weight: lighter;
+}
+
+.love h1{
+    font-size: 7rem;
+    font-weight:100;
+}
+
+.love button{
+    width: 160px;
+    height: 50px;
+    background: rgb(239, 207, 24);
+    color:rgba(1, 35, 1, 0.696); ;
+    border-radius: 5px;
+    border-style: none;
+   }
+
+.Services h3{
+    text-align: center;
+    padding: 50px;
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    color: rgba(1, 40, 1, 0.674);
+}
+
+.boxes{
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.boxes .container{
+    display: flex;
+    justify-content:space-evenly;
+}
+
+.box h2{
+    color: rgba(1, 40, 1, 0.674);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    font-size: 20px;
+}
+
+.box p{
+    color: rgba(2, 59, 2, 0.427);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    padding-right: 70px;
+    line-height:30px;
+}
+
+.box img{
+    width: 330px;
+    border-radius: 2px;
+}
+
+.ceo{
+    padding-top: 100px;
+}
+
+.ceopage{
+    background: whitesmoke;
+    /* display:flexbox; */
+    /* flex-direction: column; */
+    justify-items: center;
+    color:rgba(1, 35, 1, 0.537);
+    /* padding-left: 30px; */
+    padding-top:100px ;
+    padding-bottom:20px ;
+    /* padding-right:30px ; */
+}
+
+.ceopage .ceoimage{
+    padding-top: 50px;
+    /* display: flex; */
+    /* flex-direction: column; */
+}
+
+.ceopage .ceoimage h5{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    margin-top: 10px;
+}
+
+.ceopage .ceoimage img{
+    width: 50px;
+    height: 50px;
+    padding-left: 5px;
+}
+
+.ceopage .speech{
+    font-size: 35px;
+    color: rgba(1, 35, 1, 0.701);
+    margin-left: 140px;
+    margin-right: 140px;
+    padding-left: 150px;
+    padding-right: 150px;
+}
+
+.you{
+    width: 100%;
+    height: 600px;
+    margin-top: 100px;
+    position: relative;
+    display: flex;
+    color:rgba(1, 35, 1, 0.537);
+}
+
+.you .us{
+    padding-left: 100px;
+}
+
+.you h6{
+    font-size:small;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    padding-top: 10px;
+    
+}
+
+.you h5{
+    font-size:medium;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    padding-right: 200px;
+    line-height:30px;
+}
+
+.you h3{
+    font-size: 40px;
+    font-weight: 100;
+    /* padding-left: 150px; */
+    padding-right: 200px;
+    line-height:40px;
+}
+
+.you .find_button{
+    width: 200px;
+    height: 50px;
+    font-size:large;
+    border-style:calc(1px);
+    border-radius: 5px;
+    border-color: rgba(1, 35, 1, 0.537);
+    background-color: transparent;
+    color:rgba(1, 35, 1, 0.537);
+    border-width: 1px;
+}
+
+.you .leaf{
+    /* padding-left: 60px; */
+    /* padding-right: 80px; */
+    padding-right: 70px;
+}
+
+.question{
+    background-image: url('../LOVE & NATURE/L&N Images/image5.jpg');
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 500px;
+    margin-top: 30px;
+    position:relative;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    text-align: center;
+    color:rgba(1, 35, 1, 0.537);
+}
+
+.question h1{
+    padding-top: 110px;
+    font-size: 57px;
+    font-weight: 100;
+
+}
+
+.question h5{
+    font-size: medium;
+    font-weight: lighter;
+}
+
+.question button{
+    width: 160px;
+    height: 50px;
+    background: rgb(239, 207, 24);
+    color:rgba(1, 35, 1, 0.696); 
+    border-radius: 5px;
+    border-style: none;
+    margin-top: 50px;
+    /* font-size:large; */
+}
+
+.main-footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 50px;
+    align-items: center;
+    padding-left: 30px;
+    padding-right: 50px;
+    padding-bottom: 20px;
+    color: rgba(1, 35, 1, 0.696); 
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.main-footer ul{
+    display: flex;
+    padding-right: 40px;
+}
+
+.main-footer ul li{
+    margin-left: 20px;
+    list-style: none;
+}
+
+.main-footer a{
+    text-decoration: none;
+    color: rgba(1, 35, 1, 0.696);
+    /* font-family: Arial, Helvetica, sans-serif;  */
+}
+
+.fix-me{
+    position: fixed;
+    display: flexbox;
+    text-decoration: none;
+    text-align:center;
+    box-shadow: 0 3px 5px rgba(207, 206, 206, 0.6);
+    top: 200px;
+    width: 160px;
+    height: 50px;
+    background: white;
+    color:black;
+    border-radius: 2px;
+    border-style: none;
+    margin-top: 50px;
+}
+
+.fixbutton{
+    display: flex;
+    justify-content:end;
+}
+
+@media (max-width: 1440px) {
+
+}
+
+@media (max-width: 1024px) {
+
+}
+
+@media (max-width: 834px) {
+    
+}

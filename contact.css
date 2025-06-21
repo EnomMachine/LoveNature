@@ -1,0 +1,229 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container1 {
+  width: 100%;
+  height: 400px;
+  /* margin-top: 30px; */
+  position: relative;
+  background-image: url("../LOVE & NATURE/L&N Images/contact1.jpg");
+  /* background-attachment: fixed; */
+  background-position: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: normal;
+  /*text-align: center;*/
+  background-repeat: no-repeat;
+  /* padding-bottom: 200px; */
+  margin-bottom: 100px;
+}
+
+.container1 .contact_header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 30px;
+  padding-right: 50px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.navbar {
+  display: flex;
+}
+
+.navbar ul {
+  display: flex;
+  padding-right: 40px;
+}
+
+.navbar ul li {
+  margin-left: 20px;
+  list-style: none;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: white;
+}
+
+.navbar button {
+  width: 170px;
+  height: 50px;
+  font-size: large;
+  border-width: 1px;
+  border-radius: 5px;
+  border-color: white;
+  background-color: transparent;
+  color: white;
+}
+
+.love {
+  text-align: center;
+  color: white;
+  line-height: 1.2;
+}
+
+.love h1 {
+  font-size: 6rem;
+  font-weight: 100;
+}
+
+.contact_major {
+  height: 600px;
+  color: darkolivegreen;
+  display: flex;
+  /* background: gray; */
+}
+
+.contact_major h2 {
+  font-size: 3rem;
+  font-weight: 100;
+}
+
+.contact_major1 {
+  padding-left: 7rem;
+  padding-right: 12rem;
+}
+
+.contact_major1 p {
+  font-size: small;
+  font-family: Arial, Helvetica, sans-serif;
+  /* line-height: 1rem; */
+}
+
+.contact_major1 h4 {
+  font-size: large;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 100;
+  margin-top: 1px;
+  padding-bottom: 30px;
+  /* line-height: 5px; */
+}
+
+.itags,
+i {
+  display: flex;
+  font-size: 3rem;
+  padding-right: 1rem;
+}
+
+.form input {
+  border-bottom-width: 1px;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  width: 500px;
+  padding-bottom: 20px;
+  padding-top: 40px;
+  padding-left: 8px;
+  font-size: medium;
+}
+
+.form textarea {
+  border-bottom-width: 1px;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  width: 500px;
+  padding-top: 40px;
+  padding-left: 8px;
+  font-size: large;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.formbutton button {
+  width: 180px;
+  height: 45px;
+  background: rgb(250, 215, 16);
+  color: rgba(1, 35, 1, 0.696);
+  border-radius: 5px;
+  border-style: none;
+}
+
+.formbutton {
+  padding-top: 12px;
+}
+
+.contactminor {
+  background-color: rgb(250, 254, 240);
+  height: 550px;
+}
+
+.contactminor h1 {
+  text-align: center;
+  font-size: 40px;
+  font-weight: 100;
+  color: darkolivegreen;
+  padding-top: 4rem;
+  padding-left: 24rem;
+  padding-right: 24rem;
+}
+
+.minorimgs {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.main-footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-top: 50px;
+  align-items: center;
+  padding-left: 30px;
+  padding-right: 50px;
+  padding-bottom: 20px;
+  color: rgba(1, 35, 1, 0.696);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.main-footer ul {
+  display: flex;
+  padding-right: 40px;
+}
+
+.main-footer ul li {
+  margin-left: 20px;
+  list-style: none;
+}
+
+.main-footer a {
+  text-decoration: none;
+  color: rgba(1, 35, 1, 0.696);
+  /* font-family: Arial, Helvetica, sans-serif;  */
+}
+
+.fix-me {
+  position: fixed;
+  display: flexbox;
+  text-decoration: none;
+  text-align: center;
+  box-shadow: 0 3px 5px rgba(216, 216, 216, 0.6);
+  top: 200px;
+  width: 160px;
+  height: 50px;
+  background: white;
+  color: black;
+  border-radius: 2px;
+  border-style: none;
+  margin-top: 50px;
+}
+
+.fixbutton {
+  display: flex;
+  justify-content: end;
+}
+
+@media (max-width: 1440px) {
+
+}
+
+@media (max-width: 1024px) {
+
+}
+
+@media (max-width: 834px) {
+    
+}

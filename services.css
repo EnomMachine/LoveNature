@@ -1,0 +1,329 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container1{
+    width: 100%;
+    height: 400px;
+    /* margin-top: 30px; */
+    position: relative;
+    background-image: url('../LOVE & NATURE/L&N Images/service.jpg');
+    /* background-attachment: fixed; */
+    background-position: center;
+    background-size: cover;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    /*text-align: center;*/
+    background-repeat: no-repeat;
+    /* padding-bottom: 200px; */
+    margin-bottom: 100px;
+    
+}
+
+.container1 .services_header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 30px;
+    padding-right: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.navbar{
+    display: flex;
+    
+}
+
+.navbar ul{
+    display: flex;
+    padding-right: 40px;
+}
+
+.navbar ul li{
+    margin-left: 20px;
+    list-style: none;
+}
+
+.navbar a{
+    text-decoration: none;
+    color: white;
+}
+
+.navbar button{
+    width: 170px;
+    height: 50px;
+    font-size:large;
+    border-width: 1px;
+    border-radius: 5px;
+    border-color: white;
+    background-color: transparent;
+    color:white;
+    }
+
+    .love{
+    text-align: center;
+    color: white;
+    line-height: 1.2;
+}
+
+.love h1{
+    font-size: 6rem;
+    font-weight:100;
+}
+
+.body1{
+    display: flex;
+    color: darkolivegreen;
+    padding-bottom: 6rem;
+    /* padding-left: 8rem; */
+    /* padding-right: 8rem; */
+}
+
+.body1 .img1{
+    padding-left: 9rem;
+}
+
+.body1 .txt1{
+    padding-left: 7.5rem;
+    /* padding-top: 5rem; */
+    padding-right: 8rem;
+}
+
+.body1 .txt1 h2{
+    font-size: 2rem;
+    font-weight: 100;
+}
+
+.body1 .txt1 p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    font-weight: 100;
+    line-height: 30px;
+}
+
+.body1 .txt1 h4{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5rem;
+    font-weight: 100;
+}
+
+.body1 .txt1 button{
+    width: 160px;
+    height: 50px;
+    color: darkolivegreen;
+    border-radius: 5px;
+    border-color: darkolivegreen;
+    border-style:inset;
+    margin-top: 50px;
+    background: white;
+
+}
+
+.body2{
+    display: flex;
+    color: darkolivegreen;
+    padding-bottom: 6rem;
+    /* padding-left: 8rem; */
+    /* padding-right: 8rem; */
+}
+
+.body2 .img2{
+    padding-left: 9rem;
+}
+
+.body2 .txt2{
+    padding-left: 7.5rem;
+    /* padding-top: 5rem; */
+    padding-right: 8rem;
+}
+
+.body2 .txt2 h2{
+    font-size: 2rem;
+    font-weight: 100;
+}
+
+.body2 .txt2 p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    font-weight: 100;
+    line-height: 30px;
+}
+
+.body2 .txt2 h4{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5rem;
+    font-weight: 100;
+}
+
+.body2 .txt2 button{
+    width: 160px;
+    height: 50px;
+    color: darkolivegreen;
+    border-radius: 5px;
+    border-color: darkolivegreen;
+    border-style:inset;
+    margin-top: 50px;
+    background: white;
+
+}
+
+.body3{
+    display: flex;
+    color: darkolivegreen;
+    padding-bottom: 6rem;
+    /* padding-left: 8rem; */
+    /* padding-right: 8rem; */
+}
+
+.body3 .img3{
+    padding-left: 9rem;
+}
+
+.body3 .txt3{
+    padding-left: 7.5rem;
+    /* padding-top: 5rem; */
+    padding-right: 8rem;
+}
+
+.body3 .txt3 h2{
+    font-size: 2rem;
+    font-weight: 100;
+}
+
+.body3 .txt3 p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    font-weight: 100;
+    line-height: 30px;
+}
+
+.body3 .txt3 h4{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5rem;
+    font-weight: 100;
+}
+
+.body3 .txt3 button{
+    width: 160px;
+    height: 50px;
+    color: darkolivegreen;
+    border-radius: 5px;
+    border-color: darkolivegreen;
+    border-style:inset;
+    margin-top: 50px;
+    background: white;
+
+}
+
+.reason{
+    background: whitesmoke;
+    display: flex;
+    height: 31.5rem;
+    color: darkolivegreen;
+}
+
+.why{
+    padding-left: 5rem;
+    width: 60%;
+    /* padding-right: 10rem; */
+}
+
+.why h2{
+    font-size: 40px;
+    font-weight: 100;
+    padding-bottom: 3rem;
+}
+
+.why p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: larger;
+    line-height: 2rem;
+}
+
+.icons{
+    padding-top: 80px;
+    padding-left: 150px;
+    display: flex;
+    width: 30rem;
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.icons h6{
+    font-size: 12px;
+    font-weight: 100;
+    padding-right: 80px;
+    padding-bottom: 50px;
+    text-align: center;
+}
+
+.icons i{
+    background: white;
+    background-size: 50px;
+    padding: 20px;
+    border-radius: 100%;
+}
+
+.main-footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 50px;
+    align-items: center;
+    padding-left: 30px;
+    padding-right: 50px;
+    padding-bottom: 20px;
+    color: rgba(1, 35, 1, 0.696); 
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.main-footer ul{
+    display: flex;
+    padding-right: 40px;
+}
+
+.main-footer ul li{
+    margin-left: 20px;
+    list-style: none;
+}
+
+.main-footer a{
+    text-decoration: none;
+    color: rgba(1, 35, 1, 0.696);
+    /* font-family: Arial, Helvetica, sans-serif;  */
+}
+
+.fix-me{
+    position: fixed;
+    display: flexbox;
+    text-decoration: none;
+    text-align:center;
+    box-shadow: 0 3px 5px rgba(216, 216, 216, 0.6);
+    top: 200px;
+    width: 160px;
+    height: 50px;
+    background: white;
+    color:black;
+    border-radius: 2px;
+    border-style: none;
+    margin-top: 50px;
+}
+
+.fixbutton{
+    display: flex;
+    justify-content:end;
+}
+
+@media (max-width: 1440px) {
+
+}
+
+@media (max-width: 1024px) {
+
+}
+
+@media (max-width: 834px) {
+    
+}

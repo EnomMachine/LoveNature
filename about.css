@@ -1,0 +1,213 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container1 {
+  width: 100%;
+  height: 400px;
+  /* margin-top: 30px; */
+  position: relative;
+  background-image: url("../LOVE & NATURE/L&N Images/image6.jpg");
+  background-position: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: normal;
+  /*text-align: center;*/
+  background-repeat: no-repeat;
+}
+
+.container1 .about_header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 30px;
+  padding-right: 50px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.navbar {
+  display: flex;
+}
+
+.navbar ul {
+  display: flex;
+  padding-right: 40px;
+}
+
+.navbar ul li {
+  margin-left: 20px;
+  list-style: none;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: white;
+}
+
+.navbar button {
+  width: 170px;
+  height: 50px;
+  font-size: large;
+  border-width: 1px;
+  border-radius: 5px;
+  border-color: white;
+  background-color: transparent;
+  color: white;
+}
+
+.love {
+  text-align: center;
+  color: white;
+  line-height: 1.2;
+}
+
+.love h1 {
+  font-size: 6rem;
+  font-weight: 100;
+}
+
+.abtchild1 h3 {
+  font-size: 2rem;
+  font-weight: lighter;
+  padding-left: 300px;
+  padding-right: 300px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  text-align: center;
+  color: darkolivegreen;
+}
+
+.abtimg {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  padding-left: 100px;
+}
+
+.our {
+  display: flex;
+  font-family: Arial, Helvetica, sans-serif;
+  color: darkolivegreen;
+}
+
+.mission {
+  text-align: center;
+  padding-left: 130px;
+  padding-right: 50px;
+  padding-top: 10px;
+  padding-bottom: 50px;
+  line-height: 2;
+}
+
+.values {
+  text-align: center;
+  padding-left: 50px;
+  padding-right: 120px;
+  padding-top: 10px;
+  padding-bottom: 50px;
+  line-height: 2;
+}
+
+.our h4 {
+  font-size: x-large;
+  font-weight: lighter;
+}
+
+.quote {
+  background-color: whitesmoke;
+  height: 500px;
+  justify-items: center;
+  color: darkolivegreen;
+}
+
+.quote h4 {
+  text-align: center;
+  font-size: 30px;
+  font-weight: normal;
+  padding-left: 350px;
+  padding-right: 350px;
+}
+
+.quote h5 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 100;
+  font-size: 15px;
+  color: rgb(123, 146, 83);
+}
+
+.im1 {
+  /* height: 100%;
+  width: 100%;
+  object-fit: cover; */
+  padding-top: 70px;
+  justify-items: center;
+}
+
+/* .im2{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+} */
+
+.main-footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-top: 50px;
+  align-items: center;
+  padding-left: 30px;
+  padding-right: 50px;
+  padding-bottom: 20px;
+  color: rgba(1, 35, 1, 0.696);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.main-footer ul {
+  display: flex;
+  padding-right: 40px;
+}
+
+.main-footer ul li {
+  margin-left: 20px;
+  list-style: none;
+}
+
+.main-footer a {
+  text-decoration: none;
+  color: rgba(1, 35, 1, 0.696);
+  /* font-family: Arial, Helvetica, sans-serif;  */
+}
+
+.fix-me {
+  position: fixed;
+  display: flexbox;
+  text-decoration: none;
+  text-align: center;
+  box-shadow: 0 3px 5px rgba(212, 211, 211, 0.6);
+  top: 200px;
+  width: 160px;
+  height: 50px;
+  background: white;
+  color: black;
+  border-radius: 2px;
+  border-style: none;
+  margin-top: 50px;
+}
+
+.fixbutton {
+  display: flex;
+  justify-content: end;
+}
+
+@media (max-width: 1440px) {
+
+}
+
+@media (max-width: 1024px) {
+
+}
+
+@media (max-width: 834px) {
+    
+}
