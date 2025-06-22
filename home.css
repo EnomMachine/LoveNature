@@ -8,7 +8,7 @@
     height: 600px;
     /* margin-top: 30px; */
     position: relative;
-    background-image: url('../LOVE & NATURE/L&N Images/image4.jpg');
+    background-image: url('../LOVE & NATURE/image4.jpg');
     background-position: center;
     background-size: cover;
     font-family: Arial, Helvetica, sans-serif;
@@ -222,7 +222,7 @@
 }
 
 .question{
-    background-image: url('../LOVE & NATURE/L&N Images/image5.jpg');
+    background-image: url('../LOVE & NATURE/image5.jpg');
     background-repeat: no-repeat;
     width: 100%;
     height: 500px;
